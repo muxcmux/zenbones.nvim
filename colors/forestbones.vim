@@ -55,7 +55,6 @@ if &background ==# 'dark'
     highlight! link CocMenuSel CursorLine
     highlight! link CursorColumn CursorLine
     highlight! link FzfLuaFzfCursorLine CursorLine
-    highlight! link SnacksPickerListCursorLine CursorLine
     highlight! link SnacksPickerPreviewCursorLine CursorLine
     highlight CursorLineNr guifg=#E7DCC4 guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight Delimiter guifg=#7B8E9D guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -114,6 +113,7 @@ if &background ==# 'dark'
     highlight FlashBackdrop guifg=#6E7B85 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight FlashLabel guifg=#E7DCC4 guibg=#4B726D guisp=NONE gui=NONE cterm=NONE
     highlight FloatBorder guifg=#798B9A guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    highlight! link SnacksPickerBorder FloatBorder
     highlight FloatTitle guifg=#E7DCC4 guibg=#3B464E guisp=NONE gui=bold cterm=bold
     highlight FoldColumn guifg=#667783 guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight Folded guifg=#9CB4C6 guibg=#424D55 guisp=NONE gui=NONE cterm=NONE
@@ -150,7 +150,6 @@ if &background ==# 'dark'
     highlight! link LspCodeLens LineNr
     highlight! link SignColumn LineNr
     highlight LspInlayHint guifg=#6B8292 guibg=#313A41 guisp=NONE gui=NONE cterm=NONE
-    highlight MiniFilesNormal guifg=NONE guibg=#18181c guisp=NONE gui=NONE cterm=NONE
     highlight MoreMsg guifg=#A9C181 guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight! link Question MoreMsg
     highlight NavicText guifg=#b4ae9c guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -160,7 +159,6 @@ if &background ==# 'dark'
     highlight! link EndOfBuffer NonText
     highlight! link Whitespace NonText
     highlight NormalFloat guifg=NONE guibg=#3B464E guisp=NONE gui=NONE cterm=NONE
-    highlight! link SnacksPickerBorder NormalFloat
     highlight Number guifg=#ADA28B guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight! link Float Number
     highlight Pmenu guifg=NONE guibg=#3B464E guisp=NONE gui=NONE cterm=NONE
@@ -176,6 +174,7 @@ if &background ==# 'dark'
     highlight! link Sneak Search
     highlight SnacksIndent guifg=#394147 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight SnacksIndentScope guifg=#515B63 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    highlight SnacksPickerListCursorLine guifg=NONE guibg=#293138 guisp=NONE gui=NONE cterm=NONE
     highlight SnacksPickerMatch guifg=#D69AB7 guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight SneakLabelMask guifg=#D69AB7 guibg=#D69AB7 guisp=NONE gui=NONE cterm=NONE
     highlight Special guifg=#7FBCB4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -287,7 +286,6 @@ else
     highlight! link CocMenuSel CursorLine
     highlight! link CursorColumn CursorLine
     highlight! link FzfLuaFzfCursorLine CursorLine
-    highlight! link SnacksPickerListCursorLine CursorLine
     highlight! link SnacksPickerPreviewCursorLine CursorLine
     highlight CursorLineNr guifg=#4F5B62 guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight Delimiter guifg=#92865B guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -346,6 +344,7 @@ else
     highlight FlashBackdrop guifg=#9A9071 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight FlashLabel guifg=#4F5B62 guibg=#9ACFF8 guisp=NONE gui=NONE cterm=NONE
     highlight FloatBorder guifg=#7C724D guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    highlight! link SnacksPickerBorder FloatBorder
     highlight FloatTitle guifg=#4F5B62 guibg=#F0DC99 guisp=NONE gui=bold cterm=bold
     highlight FoldColumn guifg=#A99B6A guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight Folded guifg=#5A5236 guibg=#DAC98B guisp=NONE gui=NONE cterm=NONE
@@ -382,7 +381,6 @@ else
     highlight! link LspCodeLens LineNr
     highlight! link SignColumn LineNr
     highlight LspInlayHint guifg=#A1935F guibg=#F7EED1 guisp=NONE gui=NONE cterm=NONE
-    highlight MiniFilesNormal guifg=NONE guibg=#18181c guisp=NONE gui=NONE cterm=NONE
     highlight MoreMsg guifg=#8DA200 guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight! link Question MoreMsg
     highlight NavicText guifg=#b4ae9c guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -392,7 +390,6 @@ else
     highlight! link EndOfBuffer NonText
     highlight! link Whitespace NonText
     highlight NormalFloat guifg=NONE guibg=#F0DC99 guisp=NONE gui=NONE cterm=NONE
-    highlight! link SnacksPickerBorder NormalFloat
     highlight Number guifg=#73848D guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight! link Float Number
     highlight Pmenu guifg=NONE guibg=#E9D795 guisp=NONE gui=NONE cterm=NONE
@@ -408,6 +405,7 @@ else
     highlight! link Sneak Search
     highlight SnacksIndent guifg=#F0E2B6 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight SnacksIndentScope guifg=#C6B88C guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    highlight SnacksPickerListCursorLine guifg=NONE guibg=#7F744D guisp=NONE gui=NONE cterm=NONE
     highlight SnacksPickerMatch guifg=#DF69BA guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight SneakLabelMask guifg=#DF69BA guibg=#DF69BA guisp=NONE gui=NONE cterm=NONE
     highlight Special guifg=#3A94C4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
