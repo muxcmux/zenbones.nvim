@@ -24,6 +24,7 @@ else
 		-- selene: allow(undefined_variable)
 		return {
 			FloatBorder { specs.FloatBorder, fg = hsluv "#203f57" }, -- --border-color
+			SnacksPickerBorder { specs.FloatBorder, fg = hsluv "#203f57" }, -- --border-color
 			helpHyperTextJump { fg = hsluv "#8ec77e" }, -- --link-color
 			helpOption { helpHyperTextJump },
 			markdownUrl { helpHyperTextJump },
@@ -31,7 +32,6 @@ else
 			String { fg = p.leaf },
 			Statement { fg = p.sky },
 			ColorColumn { bg = p.bg1 },
-			MiniFilesNormal { bg = "#18181c" },
 			NavicText { fg = "#a1b0ac" },
 		}
 		-- selene: deny(undefined_variable)
