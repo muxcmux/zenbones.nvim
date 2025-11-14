@@ -57,7 +57,6 @@ if &background ==# 'dark'
     highlight! link CocMenuSel CursorLine
     highlight! link CursorColumn CursorLine
     highlight! link FzfLuaFzfCursorLine CursorLine
-    highlight! link SnacksPickerListCursorLine CursorLine
     highlight! link SnacksPickerPreviewCursorLine CursorLine
     highlight CursorLineNr guifg=#EBEEF3 guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight Delimiter guifg=#818EAB guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -116,6 +115,7 @@ if &background ==# 'dark'
     highlight FlashBackdrop guifg=#737C90 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight FlashLabel guifg=#EBEEF3 guibg=#567272 guisp=NONE gui=NONE cterm=NONE
     highlight FloatBorder guifg=#7E8CA8 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    highlight! link SnacksPickerBorder FloatBorder
     highlight FloatTitle guifg=#EBEEF3 guibg=#3F4756 guisp=NONE gui=bold cterm=bold
     highlight FoldColumn guifg=#69758C guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight Folded guifg=#A8B1C5 guibg=#464E5F guisp=NONE gui=NONE cterm=NONE
@@ -152,7 +152,6 @@ if &background ==# 'dark'
     highlight! link LspCodeLens LineNr
     highlight! link SignColumn LineNr
     highlight LspInlayHint guifg=#6E7FA0 guibg=#353C49 guisp=NONE gui=NONE cterm=NONE
-    highlight MiniFilesNormal guifg=NONE guibg=#18181c guisp=NONE gui=NONE cterm=NONE
     highlight MoreMsg guifg=#A4BE8D guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight! link Question MoreMsg
     highlight NavicText guifg=#bdc3c8 guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -162,7 +161,6 @@ if &background ==# 'dark'
     highlight! link EndOfBuffer NonText
     highlight! link Whitespace NonText
     highlight NormalFloat guifg=NONE guibg=#3F4756 guisp=NONE gui=NONE cterm=NONE
-    highlight! link SnacksPickerBorder NormalFloat
     highlight Number guifg=#8FBCBA guibg=NONE guisp=NONE gui=italic cterm=italic
     highlight! link Float Number
     highlight Pmenu guifg=NONE guibg=#3F4756 guisp=NONE gui=NONE cterm=NONE
@@ -177,6 +175,7 @@ if &background ==# 'dark'
     highlight! link Sneak Search
     highlight SnacksIndent guifg=#3D424E guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight SnacksIndentScope guifg=#555C6C guibg=NONE guisp=NONE gui=NONE cterm=NONE
+    highlight SnacksPickerListCursorLine guifg=NONE guibg=#1D222A guisp=NONE gui=NONE cterm=NONE
     highlight SnacksPickerMatch guifg=#B38DAC guibg=NONE guisp=NONE gui=bold cterm=bold
     highlight SneakLabelMask guifg=#B38DAC guibg=#B38DAC guisp=NONE gui=NONE cterm=NONE
     highlight Special guifg=#ABBAD0 guibg=NONE guisp=NONE gui=bold cterm=bold
